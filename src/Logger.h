@@ -100,7 +100,7 @@ inline void FlushToScreen::FFlush(const std::string& message){
 
 
 class DEFAULTlogger : public Logger<FlushToScreen>{};
-class DEFAULTlogger : public Logger<FlushToScreen>{};
+//class DEFAULTlogger : public Logger<FlushToScreen>{};
 
 
 #define MAINLOG(verbLevel) \
